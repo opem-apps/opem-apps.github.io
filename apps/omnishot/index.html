@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OmniShot | Opem Apps</title>
+<link rel="canonical" href="https://opem-apps.github.io/apps/omnishot/">
+<meta name="description" content="長いページを 1 枚に。囲んだ所だけや、連写・GIF も撮れるスクリーンショットのアプリ。上へも下へもつながります。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/style.css?v=20261023">
+<!-- アクセス解析（Google アナリティクス）。送る情報は「このサイトについて」（site-policy.html）に書いてある -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MEK1RSPNRH"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-MEK1RSPNRH', { allow_google_signals: false, allow_ad_personalization_signals: false });
+</script>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../"><img class="mark" src="../../assets/opem-mark.svg" alt="">Opem Apps</a>
+    <nav class="top"><a href="#features">特長</a><a href="#changelog">更新履歴</a><a href="#support">サポート</a></nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap app-hero">
+    <img class="icon" src="../../assets/icon-omnishot.svg" alt="OmniShot のアイコン">
+    <div>
+      <h1>OmniShot</h1>
+      <p>長いページを 1 枚に。囲んだ所だけや、連写・GIF も撮れます。</p>
+      <div class="btns" style="margin-top:12px"><a class="btn primary disabled" href="#">Google Play（公開準備中）</a></div>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+  <section id="features">
+    <h2>特長</h2>
+    <div class="features">
+      <div class="feature"><h3>3 つの撮り方</h3><p>長く・範囲・連写を、画面に浮かぶパネルで切り替えます。どのアプリの上でも使えます。</p></div>
+      <div class="feature"><h3>長いページを 1 枚に</h3><p>スクロールするだけ。画面の動きを 1px 単位で追い、上へ戻してもそのままつながります。</p></div>
+      <div class="feature"><h3>囲んだ所だけ</h3><p>指でなぞって囲んだ所を、1 枚でも、範囲のまま長くでも撮れます。</p></div>
+      <div class="feature"><h3>連写と GIF</h3><p>間隔・枚数・時間を決めて自動で撮り、GIF アニメにもまとめます。動画や天気の地図に。</p></div>
+      <div class="feature"><h3>撮ったらすぐ確認</h3><p>サムネイルからギャラリーへ。いらない所は切り詰めて、PNG・JPEG・PDF で保存できます。</p></div>
+      <div class="feature"><h3>パネルの色でお知らせ</h3><p>読み込み中は青、見失ったら黄、一番下まで撮れたら緑のパネルでお知らせします。</p></div>
+    </div>
+  </section>
+
+  <section id="screens">
+    <h2>画面</h2>
+    <p class="note">横一列に並んでいます。左右のボタンやスワイプで送れます（端まで行くと、反対の端へ戻ります）。画像を押すと、ウィンドウに収めて大きく表示します（大きく表示した画面でも、左右のボタン・矢印キー・スワイプで次の画像へ移れます）。</p>
+    <div class="row">
+    <button class="btn-round prev" type="button" aria-label="前の画像へ送る"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <div class="gallery" tabindex="0" aria-label="画面の画像（横に送れます）">
+      <figure>
+        <button class="shot" type="button" data-full="../../assets/screens/store-1.webp?v=20261023">
+          <img src="../../assets/screens/store-1-thumb.webp?v=20261023" width="480" height="853" loading="lazy" alt="スクショを 3 つの撮り方で。画面に浮かぶパネルで、長く・範囲・連写の 3 つの撮り方を切り替えられます">
+        </button>
+        <figcaption>スクショを 3 つの撮り方で</figcaption>
+      </figure>
+      <figure>
+        <button class="shot" type="button" data-full="../../assets/screens/store-2.webp?v=20261023">
+          <img src="../../assets/screens/store-2-thumb.webp?v=20261023" width="480" height="853" loading="lazy" alt="長いページを 1 枚に。スクロールするだけで、長いページが上へも下へもつながって 1 枚の画像になります">
+        </button>
+        <figcaption>長いページを 1 枚に</figcaption>
+      </figure>
+      <figure>
+        <button class="shot" type="button" data-full="../../assets/screens/store-3.webp?v=20261023">
+          <img src="../../assets/screens/store-3-thumb.webp?v=20261023" width="480" height="853" loading="lazy" alt="囲んだ所だけ撮る。指でなぞって囲んだ所だけを、1 枚でも、範囲のまま長くでも撮れます">
+        </button>
+        <figcaption>囲んだ所だけ撮る</figcaption>
+      </figure>
+      <figure>
+        <button class="shot" type="button" data-full="../../assets/screens/store-4.webp?v=20261023">
+          <img src="../../assets/screens/store-4-thumb.webp?v=20261023" width="480" height="853" loading="lazy" alt="連写で自動で撮る。間隔・枚数・時間を決めて自動で撮り、GIF にもまとめられます">
+        </button>
+        <figcaption>連写で自動で撮る</figcaption>
+      </figure>
+      <figure>
+        <button class="shot" type="button" data-full="../../assets/screens/store-5.webp?v=20261023">
+          <img src="../../assets/screens/store-5-thumb.webp?v=20261023" width="480" height="853" loading="lazy" alt="撮ったらすぐ確認。撮った直後に左下にサムネイルが出て、押すとギャラリーで見返せます">
+        </button>
+        <figcaption>撮ったらすぐ確認</figcaption>
+      </figure>
+      <figure>
+        <button class="shot" type="button" data-full="../../assets/screens/store-6.webp?v=20261023">
+          <img src="../../assets/screens/store-6-thumb.webp?v=20261023" width="480" height="853" loading="lazy" alt="いらない所は切り詰め。線に合わせて上下のいらない所を切り、PNG・JPEG・PDF で保存し直せます">
+        </button>
+        <figcaption>いらない所は切り詰め</figcaption>
+      </figure>
+      <figure>
+        <button class="shot" type="button" data-full="../../assets/screens/store-7.webp?v=20261023">
+          <img src="../../assets/screens/store-7-thumb.webp?v=20261023" width="480" height="853" loading="lazy" alt="パネルの色でお知らせ。撮っている間、パネルの色で次にすることをお知らせします">
+        </button>
+        <figcaption>パネルの色でお知らせ</figcaption>
+      </figure>
+      <figure>
+        <button class="shot" type="button" data-full="../../assets/screens/store-8.webp?v=20261023">
+          <img src="../../assets/screens/store-8-thumb.webp?v=20261023" width="480" height="853" loading="lazy" alt="パネルは思いのまま。パネルは好きな所へ動かせて、大きさやテーマも変えられます">
+        </button>
+        <figcaption>パネルは思いのまま</figcaption>
+      </figure>
+    </div>
+    <button class="btn-round next" type="button" aria-label="次の画像へ送る"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+    <p class="credit">画像の中のページは、国立国会図書館「<a href="https://www.ndl.go.jp/imagebank">NDLイメージバンク</a>」と、気象庁ホームページ「<a href="https://www.jma.go.jp/bosai/nowc/">雨雲の動き</a>」（地図は地理院タイル）を加工して作成しています。</p>
+  </section>
+
+  <section id="changelog">
+    <h2>更新履歴</h2>
+    <ul class="log">
+      <li><span class="ver">1.1.0</span><span class="date">公開準備中</span>
+        <ul><li>撮り方を 3 つに（長く・範囲・連写）。連写は GIF アニメにもまとめられるように</li><li>撮ったあとのサムネイルと、撮った画像を見返すギャラリー</li><li>上へも下へもスクロールして撮れるように</li><li>壁紙のあるトーク画面（LINE など）を、画面ごとにまとめて保存</li><li>撮ったあとに上下を切り詰めて保存し直せるように</li><li>画面の保存を禁止したアプリでは、撮り始めにお知らせ</li></ul></li>
+      <li><span class="ver">1.0.0</span><span class="date">試験版</span>
+        <ul><li>スクロール撮影と PNG・JPEG・PDF での保存</li><li>通知とクイック設定のタイルから撮影を開始</li></ul></li>
+    </ul>
+  </section>
+
+  <section id="support">
+    <h2>サポート</h2>
+    <p>うまく撮れないときや、ご要望は <a href="mailto:opem.apps@gmail.com">opem.apps@gmail.com</a> までお知らせください。</p>
+    <div class="btns"><a class="btn" href="privacy.html">プライバシーポリシー</a><a class="btn" href="terms.html">利用規約</a></div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="links"><a href="../../">Opem Apps</a><a href="privacy.html">プライバシーポリシー</a><a href="terms.html">利用規約</a><a href="../../site-policy.html">このサイトについて</a></div>
+    © 2026 Opem Apps
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="画像の拡大表示" hidden>
+  <figure class="stage">
+    <img alt="">
+    <figcaption aria-live="polite"><span class="count"></span><span class="cap"></span></figcaption>
+  </figure>
+  <button class="btn-round prev" type="button" aria-label="前の画像"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <button class="btn-round next" type="button" aria-label="次の画像"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <button class="btn-round close" type="button" aria-label="閉じる"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg></button>
+</div>
+<script>
+// 画面の画像の横一列: 左右のボタンで、見えている枚数ぶん送る。ボタンはいつも両方出し、端まで来たら反対の端へ回る
+(function () {
+  var row = document.querySelector('.row');
+  if (!row) return;
+  var list = row.querySelector('.gallery');
+  var prev = row.querySelector('.prev');
+  var next = row.querySelector('.next');
+  var calm = window.matchMedia('(prefers-reduced-motion: reduce)');
+  function step() {
+    var fig = list.querySelector('figure');
+    var gap = parseFloat(getComputedStyle(list).columnGap) || 0;
+    var one = fig.getBoundingClientRect().width + gap;
+    return Math.max(1, Math.floor((list.clientWidth + gap) / one)) * one;
+  }
+  function go(dir) {
+    var max = list.scrollWidth - list.clientWidth;
+    var behavior = calm.matches ? 'auto' : 'smooth';
+    if (dir > 0 && list.scrollLeft >= max - 2) list.scrollTo({ left: 0, behavior: behavior });
+    else if (dir < 0 && list.scrollLeft <= 2) list.scrollTo({ left: max, behavior: behavior });
+    else list.scrollBy({ left: dir * step(), behavior: behavior });
+  }
+  prev.addEventListener('click', function () { go(-1); });
+  next.addEventListener('click', function () { go(1); });
+})();
+
+// 画面の画像を押すと、ウィンドウに収めて大きく表示する。‹ ›・矢印キー・横のスワイプで前後の画像へ（端まで行くと反対の端へ）。
+// ×・背景・Esc で閉じる。先に一覧の縮小版を出し、大きい画像が届いたら差し替える
+(function () {
+  var box = document.getElementById('lightbox');
+  var stage = box.querySelector('.stage');
+  var img = box.querySelector('img');
+  var count = box.querySelector('.count');
+  var cap = box.querySelector('.cap');
+  var prevBtn = box.querySelector('.prev');
+  var nextBtn = box.querySelector('.next');
+  var closeBtn = box.querySelector('.close');
+  var shots = [].slice.call(document.querySelectorAll('.shot'));
+  var items = shots.map(function (btn) {
+    var thumb = btn.querySelector('img');
+    var fig = btn.closest('figure');
+    var fc = fig && fig.querySelector('figcaption');
+    return { full: btn.getAttribute('data-full'), thumb: thumb, alt: thumb.alt, cap: fc ? fc.textContent : '' };
+  });
+  var current = -1;
+  var opener = null;
+  var loaded = {};
+
+  function preload(i) {
+    var src = items[i].full;
+    if (loaded[src]) return;
+    var pre = new Image();
+    pre.onload = function () {
+      loaded[src] = true;
+      if (current === i) img.src = src;
+    };
+    pre.src = src;
+  }
+  function show(i) {
+    var n = items.length;
+    current = (i + n) % n;
+    var it = items[current];
+    // 大きい画像がまだなら縮小版を先に出す（同じ縦横比なので大きさは変わらない）
+    img.src = loaded[it.full] ? it.full : (it.thumb.currentSrc || it.thumb.src);
+    img.alt = it.alt;
+    count.textContent = (current + 1) + ' / ' + n;
+    cap.textContent = it.cap;
+    preload(current);
+    preload((current + 1) % n);
+    preload((current - 1 + n) % n);
+  }
+  function open(i) {
+    opener = shots[i];
+    box.hidden = false;
+    document.documentElement.classList.add('noscroll');
+    show(i);
+    nextBtn.focus();
+  }
+  function close() {
+    box.hidden = true;
+    current = -1;
+    img.removeAttribute('src');
+    document.documentElement.classList.remove('noscroll');
+    if (opener) opener.focus();
+  }
+  shots.forEach(function (btn, i) {
+    btn.addEventListener('click', function () { open(i); });
+  });
+  prevBtn.addEventListener('click', function () { show(current - 1); });
+  nextBtn.addEventListener('click', function () { show(current + 1); });
+  closeBtn.addEventListener('click', close);
+  box.addEventListener('click', function (e) {
+    if (e.target === box || e.target === stage) close();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (box.hidden) return;
+    if (e.key === 'Escape') close();
+    else if (e.key === 'ArrowRight') { e.preventDefault(); show(current + 1); }
+    else if (e.key === 'ArrowLeft') { e.preventDefault(); show(current - 1); }
+    else if (e.key === 'Tab') {
+      // 開いている間は、フォーカスを 3 つのボタンの中で回す
+      var order = [prevBtn, nextBtn, closeBtn];
+      var k = order.indexOf(document.activeElement);
+      e.preventDefault();
+      order[(k + (e.shiftKey ? order.length - 1 : 1) + order.length) % order.length].focus();
+    }
+  });
+  // スマホ: 横にはじくと前後の画像へ
+  var sx = 0, sy = 0, touching = false;
+  box.addEventListener('touchstart', function (e) {
+    if (e.touches.length !== 1) { touching = false; return; }
+    touching = true;
+    sx = e.touches[0].clientX;
+    sy = e.touches[0].clientY;
+  }, { passive: true });
+  box.addEventListener('touchend', function (e) {
+    if (!touching) return;
+    touching = false;
+    var dx = e.changedTouches[0].clientX - sx;
+    var dy = e.changedTouches[0].clientY - sy;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) show(current + (dx < 0 ? 1 : -1));
+  });
+})();
+</script>
+</body>
+</html>

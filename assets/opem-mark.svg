@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Opem Apps のロゴ L1-1（2026-10-15 決定）: 手を伸ばした向きに細くなる輪と、内側に触れる点 -->
+  <defs>
+    <linearGradient id="ring" gradientUnits="userSpaceOnUse" x1="10" y1="42" x2="40" y2="8">
+      <stop offset="0" stop-color="#17C3B2"/>
+      <stop offset="1" stop-color="#3C6DF0"/>
+    </linearGradient>
+    <linearGradient id="dot" gradientUnits="userSpaceOnUse" x1="27" y1="13" x2="35" y2="21">
+      <stop offset="0" stop-color="#FF8C42"/>
+      <stop offset="1" stop-color="#FFB547"/>
+    </linearGradient>
+  </defs>
+  <path fill-rule="evenodd" fill="url(#ring)" d="M8 24a16 16 0 1 0 32 0a16 16 0 1 0-32 0ZM16 21.5a10.5 10.5 0 1 0 21 0a10.5 10.5 0 1 0-21 0Z"/>
+  <circle cx="31.1" cy="16.9" r="4.3" fill="url(#dot)"/>
+</svg>
