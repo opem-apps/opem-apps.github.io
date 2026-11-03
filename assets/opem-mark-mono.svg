@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Opem Apps のロゴ L1 の 1 色版。色は currentColor（置く所の文字色）に合わせる -->
+  <path fill-rule="evenodd" fill="currentColor" d="M8 24a16 16 0 1 0 32 0a16 16 0 1 0-32 0ZM16 21.5a10.5 10.5 0 1 0 21 0a10.5 10.5 0 1 0-21 0Z"/>
+  <circle cx="31.1" cy="16.9" r="4.3" fill="currentColor"/>
+</svg>
